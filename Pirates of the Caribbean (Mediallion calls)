@@ -1,0 +1,272 @@
+const int cf2 = 87;
+const int ca2=110;
+const int cas2 = 116.5;
+const int cb2 = 123;
+const int cc = 131;
+const int ccs = 139;
+const int cd = 147;
+const int ce = 165;
+const int cf = 175;
+const int cg =196;
+const int cgs =208;
+const int ca =220;
+const int cas =233; 
+const int cb =247;
+const int ccH =262;
+const int ccsH = 277;
+const int cdH = 294;
+const int ceH = 329;
+const int cfH = 349;
+const int cgH = 391;
+const int caH = 440;
+const int cbH = 466;
+const int cc1H = 523;
+
+const int buzzerPin = 8; //Buzzer-pin
+const int ledPin1 = 5; //Led pins
+const int ledPin3 = 3;
+const int ledPin4 = 2;
+const int ledPin2 = 4;
+int counter = 0;
+int q = 0;
+int y = 0;
+int v = 0;
+
+void setup() {
+  // put your setup code here, to run once:
+ pinMode(buzzerPin, OUTPUT);
+ pinMode(ledPin1, OUTPUT);
+ pinMode(ledPin2, OUTPUT);
+ pinMode(ledPin3, OUTPUT);
+ pinMode(ledPin4, OUTPUT);
+ pinMode(LED_BUILTIN, OUTPUT);
+}
+void loop() {
+ if (q <1){
+  firstsection();
+ }
+}
+void firstsection() {
+  // put your main code here, to run repeatedly:
+  beep(cd , 500);  //Pirates of the caribbean
+   beep(ce , 500);
+   beep(cf , 750);
+   beep(cg , 250);
+   beep(ca, 500);
+   
+   beep(cg, 500);
+   beep(cf, 500);
+   beep(ce, 500);
+   beep(cf, 500);
+   beep(cg, 500); 
+   beep(ca, 500);
+   
+   beep(cg, 750);
+   delay(250);
+   beep(cf, 250);
+   beep(cg, 250);
+   beep(ca, 750);
+   beep(cg, 250);
+   beep(cf, 500);
+  
+   beep(ce, 500);
+   beep(cf, 500);
+   beep(ce, 500);
+   beep(cd, 750);
+   beep(ce, 250);
+   beep(cc, 500);
+  
+   beep(cd, 125);
+   beep(cd, 125);
+   beep(cd, 250);
+   delay(250);
+   beep(cc, 250);
+   beep(ca2, 250);
+   delay(250);
+   beep(ca2, 125);
+   beep(ca2, 125);
+   beep(ca2, 250);
+   delay(250);
+   beep(ca,125);
+   beep(ca ,125);
+   beep(cdH, 250);
+   beep(ceH, 250);
+  
+   beep(cfH, 750);
+   beep(ceH,250);
+   beep(cfH, 500);
+   beep(cgH, 500);
+   beep(cfH, 500);
+   beep(cgH, 500);
+   
+   beep(caH, 750);
+   beep(cgH, 250);
+   beep(cfH, 500);
+   beep(cdH, 1000);
+   beep(cdH, 250);
+   beep(ceH, 250);
+   
+   beep(cfH, 500);
+   beep(cgH, 500);
+   beep(caH, 500);
+   beep(cbH, 500);
+   beep(cdH, 750);
+   beep(cgH, 250);
+   beep(cfH, 750);
+   beep(cgH,250);
+   beep(ceH,500);
+  
+   beep(ca, 750);
+   beep(ca, 250);
+   beep(cf, 250);
+   beep(ce, 250);
+   beep(cd, 1500); 
+   beep(cd, 750);
+   beep(ca2, 250);
+   beep(cd, 500);
+  
+   beep(ce, 500);
+   beep(ca2, 500);
+   beep(ce, 500);
+   beep(cf, 750);
+   beep(ce, 250);
+   beep(cd, 500);
+   beep(ce, 1000);
+   beep(cdH, 250);
+   beep( ceH, 250);
+ 
+   beep(cfH, 750);
+   beep(ceH, 250);
+   beep(cdH, 500);
+   beep(ccH, 500);
+   beep(cfH, 500);
+   beep(ca, 500);
+   beep(cg, 750);
+   beep(cf, 250);
+   beep(cg, 500);
+  
+   beep(ca, 500);
+   beep(cb2, 500); 
+   beep(ccs, 500);
+   beep(cd, 250);
+   delay(125);
+   beep(cc, 125);
+   beep(cd, 250);
+   beep(ce, 250);
+   beep(cf, 250);
+   beep(cf2, 250);
+ 
+   beep(cd, 250);
+   delay(125);
+   beep(cf, 125);
+   beep(ce, 250);
+   beep(cc, 250);
+   beep(cd, 250);
+   beep(ca2, 250);
+   beep(cd, 250);
+   delay(125);
+   beep(cc, 125);
+   beep(cd, 250);
+   beep(ce, 250);
+   beep(cf, 250);
+   beep(cg, 250);
+   
+   beep(ca, 250);
+   delay(250);
+   beep(ce, 250);
+   delay(250);
+   beep(cc, 250);
+   delay(250);
+   beep(cd, 250);
+   delay(125);
+   beep(cc, 125);
+   beep(cd, 250);
+   beep(ce, 250);
+   beep(cf, 250);
+   beep(cb2, 250);
+   
+   beep(cd, 250);
+   delay(125);
+   beep(cf,125);
+   beep(ce, 250);
+   beep(cc, 250);
+   beep(cd, 250);
+   beep(ca2, 250);
+   beep(cd, 250);
+   delay(125);
+   beep(cc, 125);
+   beep(cd, 250);
+   beep(ce, 250);
+   beep(cf, 250);
+   beep(cg, 250);
+   
+   beep(ca,250);
+   delay(250);
+   beep(cb, 250);
+   beep(cb, 250);
+   beep(ccsH, 250);
+   beep(ccsH, 250);
+   beep(cdH,250);
+   beep(ceH, 250);
+   beep(cfH, 750);
+   beep(cgH, 250);
+   beep(caH, 500);
+   
+   beep(cgH, 500);
+   beep(cfH, 500);
+   beep(ceH, 500);
+   beep(cfH, 500);
+   beep(cgH, 500);
+   beep(caH, 500);
+   beep(cgH, 1500);   
+   
+   delay(1500);
+   q = q+2;
+   
+}
+// Thanks to https://gist.github.com/nicksort/4736535 for this code! Ceck out his song
+//I modified it a bit so the Leds are faster
+void beep(int note, int duration)
+{
+  //Play tone on buzzerPin
+  tone(buzzerPin, note, duration);
+  Serial.println(duration);
+  y = duration;
+  Serial.println(duration);
+  v = y/2;
+  Serial.println(v);
+  //Play different LED depending on value of 'counter'
+  if(counter % 2 == 0)
+  {
+    digitalWrite(ledPin1, HIGH);
+    digitalWrite(ledPin4, HIGH);
+    delay(v);
+    digitalWrite(ledPin1, LOW);
+    digitalWrite(ledPin4, LOW);
+    digitalWrite(ledPin2, HIGH);
+    digitalWrite(ledPin3, HIGH);
+    delay(v);
+    digitalWrite(ledPin2, LOW);
+    digitalWrite(ledPin3, LOW);
+  }else
+  {
+    digitalWrite(ledPin2, HIGH);
+    digitalWrite(ledPin4, HIGH);
+    delay(v);
+    digitalWrite(ledPin2, LOW);
+    digitalWrite(ledPin4, LOW);
+    digitalWrite(ledPin3, HIGH);
+    digitalWrite(ledPin1, HIGH);
+    delay(v);
+    digitalWrite(ledPin1, LOW);
+    digitalWrite(ledPin3, LOW);
+  }
+ 
+  //Stop tone on buzzerPin
+  noTone(buzzerPin);
+ 
+  delay(50);
+ 
+  //Increment counter
+  counter++;
+}
